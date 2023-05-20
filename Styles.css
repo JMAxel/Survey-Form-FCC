@@ -1,0 +1,71 @@
+body {
+	background-image: linear-gradient(115deg, rgba(138, 98, 74, 0.8), rgba(136, 80, 120, 0.7) ), url(https://cdna.artstation.com/p/assets/images/images/012/773/182/4k/lucas-papini-highresscreenshot00002.jpg?1536442014&dl=1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:sans-serif;
+	color: #d5d5d5;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+  }
+  
+  header {
+	margin: 50px 0 0 0;
+	text-align: center;
+	font-family: 'Poppins', tahoma;
+	font-size: 125%;
+  }
+  
+  .italic {
+	font-style: italic;
+  }
+  
+  form {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgba(38, 8, 4, 0.5);
+	color: #e5e5e5;
+	font-size: 125%;
+	border-radius: 5px;
+	max-width: 500px;
+	min-width: 300px;
+	width: 60vw;
+  }
+  
+  fieldset {
+	border: none;
+  }
+  
+  label {
+	display: block;
+	margin: 0.5rem 0;
+  }
+  
+  fieldset {
+	padding: 0 0 15px 0;
+  }
+  
+  input, textarea, select {
+	margin: 10px 0 0 0;
+	width: 100%;
+	min-height: 2em;
+	border-radius: 5px;
+	background-color: rgba(38, 8, 4, 0.5);
+	color: #e5e5e5;
+	border: none;
+  }
+  
+  .textbox {
+	padding: 5px 0 0 0;
+  }
+  
+  .inline {
+	width: auto;
+	vertical-align: middle;
+	margin: 0 0.5em 0 0;
+  }
+  
+  .submit:hover {
+	background-color: rgba(76, 16, 8, 0.5);
+  }

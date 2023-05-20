@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Survey Form</title>
+		<link rel="stylesheet" href="Styles.css"/>
+	</head>
+	<body>
+		<header>
+		<h1 id="title">Cafe Leblanc Survey Form</h1>
+		<p id="description" class="italic">Thank you for taking the time to help us improve our establishment.</p>
+		</header>
+		<form id="survey-form">
+		<fieldset>
+			<label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
+			<label id="email-label" class="textbox">Email<input id="email" type="email" placeholder="Enter your Email" required/></label>
+			<label id="number-label" class="textbox">Age (optional)<input id="number" type="number" placeholder="Enter your Age" min="12" max="130"/></label>
+			<label for="dropdown" class="textbox">Which of these would be your favorite Coffee?
+			<select id="dropdown">
+				<option value="">Select your option</option>
+				<option value="1">Black</option>
+				<option value="2">Espresso</option>
+				<option value="3">Cappuccino</option>
+				<option value="4">Mocha</option>
+			</select>
+			</label>
+		</fieldset>
+		<fieldset>
+			<p>Do you plan to visit us again?</p>
+			<label for="yes"><input id="yes" class="inline" type="radio" name="visit" value="1"/> Yes</label>
+			<label for="no"><input id="no" class="inline" type="radio" name="visit" value="2"/> No</label>
+			<label for="maybe"><input id="maybe" class="inline" type="radio" name="visit" value="3"/> Maybe</label>
+		</fieldset>
+		<fieldset>
+			<p>What would like to see us selling? (You can choose more than one!)</p>
+			<label for="Sandwich"><input id="Sandwich" class="inline" type="checkbox" name="visit" value="1"/> Sandwich</label>
+			<label for="Brownie"><input id="Brownie" class="inline" type="checkbox" name="visit" value="2"/> Brownie</label>
+			<label for="Cookie"><input id="Cookie" class="inline" type="checkbox" name="visit" value="3"/> Cookie</label>
+			<label for="Croissant"><input id="Croissant" class="inline" type="checkbox" name="visit" value="4"/> Croissant</label>
+			<label for="Cake"><input id="Cake" class="inline" type="checkbox" name="visit" value="5"/> Cake</label>
+			<label for="Donut"><input id="Donut" class="inline" type="checkbox" name="visit" value="6"/> Donut</label>
+			<label for="Muffin"><input id="Muffin" class="inline" type="checkbox" name="visit" value="7"/> Muffin</label>
+		</fieldset>
+		<fieldset>
+			<label for="comments">Any comments or suggestions?
+			<textarea id="comments" placeholder="Enter your comment here..." rows="5""></textarea>
+			</label>
+		</fieldset>
+		<input id="submit" type="submit" class="submit"/>
+		</form>
+	</body>
+</html>
